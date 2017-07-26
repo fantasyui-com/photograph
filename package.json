@@ -1,6 +1,6 @@
 {
   "name": "photograph",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Wrap web application UI in a pretty frame, prior to screen capture and posting to show and tell sites.",
   "main": "index.js",
   "scripts": {
