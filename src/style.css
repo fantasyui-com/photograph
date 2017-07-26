@@ -2,8 +2,11 @@ $primary-gradient-1: rgba(255, 255, 255, 0.6);
 $primary-gradient-2: rgba(255, 255, 255, 0.2);
 
 html.photograph body {
-  padding: 5rem;
+
+  margin: 5rem;
+  padding: 2rem;
   text-shadow: 1px 1px 1px #ffffff;
   background: linear-gradient(45deg, $primary-gradient-1, $primary-gradient-2);
   box-shadow: 0 0 5px rgba(0,0,0,0.3);
+
 }
