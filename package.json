@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/fantasyui-com/photograph/issues"
   },
-  "homepage": "https://github.com/fantasyui-com/photograph#readme"
+  "homepage": "https://github.com/fantasyui-com/photograph#readme",
+  "dependencies": {
+    "autoprefixer": "^7.1.2",
+    "postcss": "^6.0.8",
+    "precss": "^2.0.0"
+  }
 }
