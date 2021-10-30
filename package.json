@@ -4,14 +4,15 @@
   "description": "Wrap web application UI in a pretty frame, prior to screen capture and posting to show and tell sites.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "save": "git add .; git commit -m 'New Release'; git push; npm version patch; npm publish; git push;"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fantasyui-com/photograph.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "fantasyui.com <fantasyui.com@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/fantasyui-com/photograph/issues"
@@ -20,6 +21,6 @@
   "dependencies": {
     "autoprefixer": "^7.1.2",
     "postcss": "^6.0.8",
-    "precss": "^2.0.0"
+    "precss": "^4.0.0"
   }
 }
