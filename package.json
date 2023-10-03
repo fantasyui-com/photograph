@@ -20,7 +20,7 @@
   "homepage": "https://github.com/fantasyui-com/photograph#readme",
   "dependencies": {
     "autoprefixer": "^10.4.2",
-    "postcss": "^6.0.8",
+    "postcss": "^8.4.31",
     "precss": "^4.0.0"
   }
 }
